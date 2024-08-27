@@ -2,73 +2,71 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
+import project6 from "../assets/projects/project-6.jpg";
 
 export const HERO_CONTENT = "Hello, I’m Adithiyan, a frontend developer specializing in ReactJS, Bootstrap, and TailwindCSS. I utilize ReactJS to build interactive and scalable web applications, use Bootstrap to quickly create responsive layouts, and apply TailwindCSS for precise, custom styling. My goal is to craft seamless, user-friendly interfaces that stand out with both functionality and aesthetics. Feel free to explore my portfolio - Happy Exploration! :)"
 export const ABOUT_TEXT = "A passionate self-taught programmer and a Machine learning enthusiast. Currently I am working in the domains of deep learning using OpenCV and full-stack web development. I am a fully committed team member with a talent for clear communication, and I work best in cooperative settings that encourage creativity. My passion for remaining current with cutting-edge technology, such as large language models (LLMs), Robotic Process Automation (RPA) reflects my dedication to lifelong learning and development. I spend my free time on LeetCode enhancing my problem-solving abilities."
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+    year: "January 2022 - Present",
+    role: "Mentor - Aritificial Intelligence and Competitive Programming Domain",
+    company: "Cognizance Amrita",
+    description: `As a mentor, evaluated students on weekly technical tasks, quizzes, and hackathons, contributed to intra-college
+Computer Vision hackathon and other technical events. Guided many students in upskilling, focusing on career
+development and technical expertise.`,
+    technologies: ["Python", "Java", "Computer Vision", "Machine learning", "Neural Networks"],
+  }
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    title: "A.I.A.R.A - THE SOCIAL ROBOT",
+    image: project1, 
+    description: "Designed an interface for social robots capable of recognizing faces, engaging in natural conversation, and detecting emotions through visual and textual inputs. Developed animated avatars that convey emotions based on user interactions.",
+    technologies: ["Python", "Flask", "Gemini Pro API", "Whisper", "OpenCV", "Yolov8", "HTML", "CSS", "JavaScript"],
+    githubLink: "https://github.com/Adithiyanpv/AIARA" 
   },
   {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    title: "GENERATION OF FEN SCORE FROM CHESSBOARD USING CNN",
+    image: project2, 
+    description: "Developed a CNN-based model to accurately generate FEN scores from digital chessboard images, achieving 98.4% accuracy. The system is designed for real-time application, enabling automated analysis of online chess matches and efficient game record keeping, thus streamlining the process for players and commentators by providing instant, accurate board states.",
+    technologies: ["Python", "TensorFlow", "Keras", "OpenCV", "Matplotlib", "Scikit-learn", "Pandas", "Numpy"],
+    githubLink: "https://github.com/Adithiyanpv/FEN-SCORE-GENERATION" 
   },
   {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    title: "FINANCIAL FRAUD DETECTION",
+    image: project3, 
+    description: "Built a scalable web application integrating a 96.87% accurate Random Forest model to detect financial fraud in real-time. The application features a user-friendly interface for seamless transaction monitoring and fraud prediction.",
+    technologies: ["Python", "Scikit-learn", "Flask", "HTML", "CSS", "Pandas"],
+    githubLink: "https://github.com/Adithiyanpv/Financial_Fraud_Detection" 
   },
   {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    title: "REAL TIME OBJECT DETECTION USING YOLOV9",
+    image: project4, 
+    description: "Developed the Gelan-C model for real-time object detection in football using a customized dataset, PyTorch, YOLOv9, and OpenCV, achieving 75.9% mAP50 during validation, enhancing accuracy and efficiency in game analysis and performance tracking.",
+    technologies: ["Python", "PyTorch", "YOLOv9", "OpenCV"],
+    githubLink: "https://github.com/Adithiyanpv/OBJECT-DETECTION-USING-YOLOV9"
   },
+  {
+    title: "Automobile Parts Classification using RexNet-150",
+    image: project5, 
+    description: "Utilized ReXNet-150 to automate automotive part assembly and quality control, achieving 98.6% testing accuracy and 98.4% training accuracy with a dataset of 16,600 RGB images across 50 auto parts, enhancing efficiency in vehicle manufacturing and inspection systems.",
+    technologies: ["Python", "ReXNet-150", "Computer Vision"],
+    githubLink: "https://github.com/Adithiyanpv/AUTOMOBILE-PARTS-CLASSFICATION"
+  },
+  {
+    title: "Fake News Classification using XGBoost and CNN",
+    image: project6, 
+    description: "Developed a robust fake news detection system utilizing XGBoost and CNNs for both textual and video content, achieving 96% accuracy by integrating human insights with computational power to effectively identify misinformation across various media.",
+    technologies: ["Python", "XGBoost", "CNN", "Text Analysis", "Video Analysis"],
+    githubLink: "https://github.com/Adithiyanpv/FAKE-NEWS-CLASSIFICATION-VIDEO-AND-AUDIO-"
+  }
 ];
 
+
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "103-D, Chinnamman Kovil Street, Avadi, Chennai - 600054 ",
+  phoneNo: "+91 9360105866",
+  email: "adithiyan999@gmail.com",
 };

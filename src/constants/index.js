@@ -4,18 +4,32 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
 import project6 from "../assets/projects/project-6.jpg";
+import project7 from "../assets/projects/project-7.jpg";
+import project8 from "../assets/projects/project-8.jpg";
+import project9 from "../assets/projects/project-9.jpg";
+import project10 from "../assets/projects/project-10.jpg";
 
-export const HERO_CONTENT = "Hello, I’m Adithiyan, a frontend developer specializing in ReactJS, Bootstrap, and TailwindCSS. I utilize ReactJS to build interactive and scalable web applications, use Bootstrap to quickly create responsive layouts, and apply TailwindCSS for precise, custom styling. My goal is to craft seamless, user-friendly interfaces that stand out with both functionality and aesthetics. Feel free to explore my portfolio - Happy Exploration! :)"
-export const ABOUT_TEXT = "A passionate self-taught programmer and a Machine learning enthusiast. Currently I am working in the domains of deep learning using OpenCV and full-stack web development. I am a fully committed team member with a talent for clear communication, and I work best in cooperative settings that encourage creativity. My passion for remaining current with cutting-edge technology, such as large language models (LLMs), Robotic Process Automation (RPA) reflects my dedication to lifelong learning and development. I spend my free time on LeetCode enhancing my problem-solving abilities."
+export const HERO_CONTENT = "Hello, I’m Adithiyan, a Machine Learning Engineer passionate about building intelligent systems that transform data into actionable insights. I specialize in developing scalable ML models, integrating AI solutions with web technologies, and deploying end-to-end pipelines using tools like Flask, LangChain, and Docker. I love turning complex algorithms into real-world applications that drive innovation. Explore my portfolio to see how I bring ideas to life with code!";
+export const ABOUT_TEXT = "I'm a passionate Techie with a deep interest in Machine Learning, Computer Vision, Natural Language Processing, and Advanced Data Structures. My work spans building intelligent systems using deep learning frameworks, deploying scalable applications with AWS and Docker, and integrating cutting-edge technologies like Large Language Models (LLMs) and LangChain for real-world AI solutions. I thrive in collaborative environments that fuel innovation and creativity. Outside of projects, I actively solve problems on LeetCode to sharpen my algorithmic thinking and stay updated with the latest in tech.";
 export const EXPERIENCES = [
   {
     year: "January 2022 - Present",
-    role: "Mentor - Aritificial Intelligence and Competitive Programming Domain",
+    role: "Technical Co-ordinator - Artificial Intelligence and Competitive Programming Domain",
     company: "Cognizance Amrita",
-    description: `As a mentor, evaluated students on weekly technical tasks, quizzes, and hackathons, contributed to intra-college
-Computer Vision hackathon and other technical events. Guided many students in upskilling, focusing on career
-development and technical expertise.`,
-    technologies: ["Python", "Java", "Computer Vision", "Machine learning", "Neural Networks"],
+    description: `As a co-ordinator, evaluated students on weekly technical tasks, quizzes, and hackathons,various technical events. Organized and led workshops, events, and peer-led study sessions on Data Structures, Computer Vision,
+and Machine Learning, enhancing peer learning and technical proficiency.`,
+    technologies: ["Python", "Java", "Computer Vision", "Machine learning", "Neural Networks", "Data Structures and Algorithms"],
+  },
+
+  {
+    year: "October 2024 - December 2024",
+    role: "Machine Learning Intern (Project Lead)",
+    company: "Infosys Springboard",
+    description: `Developed and deployed an end-to-end obesity classification system using machine learning and generative
+AI, integrating LangChain with Google Gemini for personalized health suggestions, and achieving 92%
+accuracy through advanced preprocessing, hyperparameter tuning, and a user-friendly Flask-based web app
+deployed via Render with CI/CD pipelines for real-time predictions.`,
+    "technologies": ["Python", "Flask", "Scikit-Learn", "Pandas", "LangChain", "Google Gemini", "CI/CD", "Render", "Machine Learning", "Generative AI"],
   }
 ];
 
@@ -28,11 +42,11 @@ export const PROJECTS = [
     githubLink: "https://github.com/Adithiyanpv/AIARA" 
   },
   {
-    title: "GENERATION OF FEN SCORE FROM CHESSBOARD USING CNN",
-    image: project2, 
-    description: "Developed a CNN-based model to accurately generate FEN scores from digital chessboard images, achieving 98.4% accuracy. The system is designed for real-time application, enabling automated analysis of online chess matches and efficient game record keeping, thus streamlining the process for players and commentators by providing instant, accurate board states.",
-    technologies: ["Python", "TensorFlow", "Keras", "OpenCV", "Matplotlib", "Scikit-learn", "Pandas", "Numpy"],
-    githubLink: "https://github.com/Adithiyanpv/FEN-SCORE-GENERATION" 
+    title: "Fake News Classification using XGBoost and CNN",
+    image: project6, 
+    description: "Developed a robust fake news detection system utilizing XGBoost and CNNs for both textual and video content, achieving 96% accuracy by integrating human insights with computational power to effectively identify misinformation across various media.",
+    technologies: ["Python", "XGBoost", "CNN", "Text Analysis", "Video Analysis"],
+    githubLink: "https://github.com/Adithiyanpv/FAKE-NEWS-CLASSIFICATION-VIDEO-AND-AUDIO-"
   },
   {
     title: "FINANCIAL FRAUD DETECTION",
@@ -56,17 +70,45 @@ export const PROJECTS = [
     githubLink: "https://github.com/Adithiyanpv/AUTOMOBILE-PARTS-CLASSFICATION"
   },
   {
-    title: "Fake News Classification using XGBoost and CNN",
-    image: project6, 
-    description: "Developed a robust fake news detection system utilizing XGBoost and CNNs for both textual and video content, achieving 96% accuracy by integrating human insights with computational power to effectively identify misinformation across various media.",
-    technologies: ["Python", "XGBoost", "CNN", "Text Analysis", "Video Analysis"],
-    githubLink: "https://github.com/Adithiyanpv/FAKE-NEWS-CLASSIFICATION-VIDEO-AND-AUDIO-"
+    title: "VisionChess: Seamless Chessboard Detection and 2D Rendering",
+    image: project2,
+    description: "Developed a YOLOv11-based model to detect and classify chess pieces from board images, achieving 95.4% accuracy in reconstructing FEN strings. Combined deep learning techniques with tailored model enhancements to deliver robust and accurate predictions.",
+    technologies: ["YOLOv11", "Python", "OpenCV", "Custom Feature Engineering", "Deep Learning"],
+    githubLink: "https://github.com/Adithiyanpv/RETRIEVAL-OF-FEN-SCORE-FROM-LIVE-CHESSBOARD.git"
+  },
+  {
+    title: "Smart Attendance System (SAS) using Face Recognition",
+    image: project7,
+    description: "Built a tablet-based system using DeepFace that achieved 99.75% accuracy, 94% confidence level, and a 2-second recognition time to automate attendance, eliminating manual errors and delays in institutions. Developed the full-stack system with Node.js, Express, Flask, and MySQL for seamless attendance management.",
+    technologies: ["DeepFace", "VGGFace", "Flask", "Node.js", "Express", "HTML", "CSS", "JavaScript", "MySQL"],
+    githubLink: "https://github.com/Adithiyanpv/SMART-ATTENDANCE-SYSTEM-WITH-FACIAL-RECOGNITION.git"
+  },
+  {
+    title: "Bidirectional Accent Conversion via GAN-Based Mel Translation",
+    image: project8,
+    description: "Built a GAN model for bidirectional accent conversion, transforming Indian and American-accented speech using paired Mel spectrograms, achieving MCD of 10.06, Mel Spectrogram Pearson Correlation of 0.99, and Prosody Similarity of 0.89, demonstrating high-quality and natural accent transformation.",
+    technologies: ["GAN", "Librosa", "Scipy", "Numpy", "Speech Processing", "PyTorch"],
+    githubLink: "https://github.com/Adithiyanpv/Accent-Conversion-from-native-to-non-native-accent.git"
+  },
+  {
+    title: "Multimodal Code-Mixed Medical Query Summarization",
+    image: project9,
+    description: "Engineered a lightweight multimodal pipeline by combining Vision Transformer and DistilBART to summarize code-mixed Hindi-English medical queries from both textual and image inputs. Achieved a ROUGE score of 60.09, BLEU score of 36.20, and BERTScore of 0.9192, reflecting strong fluency and semantic alignment.",
+    technologies: ["ViT", "DistilBART", "PyTorch", "torchvision", "PIL", "scikit-learn", "pandas"],
+    githubLink: "https://github.com/Adithiyanpv/Multimodal-Code-Switching-Medical-Query-Summarization.git"
+  },
+  {
+    title: "Advanced Chess Game Analytics Pipeline Using Apache Spark",
+    image: project10,
+    description: "Built a scalable pipeline using Apache Spark to analyze 10M+ chess games, revealing rare chess patterns and providing insights into game length, critical moves, optimal resignation moments, time control impacts, and opening move effectiveness, enhancing decision-making through data-driven analysis.",
+    technologies: ["Apache Spark", "PySpark", "Python", "Matplotlib", "Pandas", "SQL", "Linux"],
+    githubLink: "https://github.com/Adithiyanpv/Near-Real-Time-Chess-Analytics-Using-Apache-Spark.git"
   }
 ];
 
 
+
 export const CONTACT = {
-  address: "103-D, Chinnamman Kovil Street, Avadi, Chennai - 600054 ",
   phoneNo: "+91 9360105866",
   email: "adithiyan999@gmail.com",
 };

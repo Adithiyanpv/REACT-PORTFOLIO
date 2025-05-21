@@ -41,34 +41,7 @@ export const PROJECTS = [
     technologies: ["Python", "Flask", "Gemini Pro API", "Whisper", "OpenCV", "Yolov8", "HTML", "CSS", "JavaScript"],
     githubLink: "https://github.com/Adithiyanpv/AIARA" 
   },
-  {
-    title: "Fake News Classification using XGBoost and CNN",
-    image: project6, 
-    description: "Developed a robust fake news detection system utilizing XGBoost and CNNs for both textual and video content, achieving 96% accuracy by integrating human insights with computational power to effectively identify misinformation across various media.",
-    technologies: ["Python", "XGBoost", "CNN", "Text Analysis", "Video Analysis"],
-    githubLink: "https://github.com/Adithiyanpv/FAKE-NEWS-CLASSIFICATION-VIDEO-AND-AUDIO-"
-  },
-  {
-    title: "FINANCIAL FRAUD DETECTION",
-    image: project3, 
-    description: "Built a scalable web application integrating a 96.87% accurate Random Forest model to detect financial fraud in real-time. The application features a user-friendly interface for seamless transaction monitoring and fraud prediction.",
-    technologies: ["Python", "Scikit-learn", "Flask", "HTML", "CSS", "Pandas"],
-    githubLink: "https://github.com/Adithiyanpv/Financial_Fraud_Detection" 
-  },
-  {
-    title: "REAL TIME OBJECT DETECTION USING YOLOV9",
-    image: project4, 
-    description: "Developed the Gelan-C model for real-time object detection in football using a customized dataset, PyTorch, YOLOv9, and OpenCV, achieving 75.9% mAP50 during validation, enhancing accuracy and efficiency in game analysis and performance tracking.",
-    technologies: ["Python", "PyTorch", "YOLOv9", "OpenCV"],
-    githubLink: "https://github.com/Adithiyanpv/OBJECT-DETECTION-USING-YOLOV9"
-  },
-  {
-    title: "Automobile Parts Classification using RexNet-150",
-    image: project5, 
-    description: "Utilized ReXNet-150 to automate automotive part assembly and quality control, achieving 98.6% testing accuracy and 98.4% training accuracy with a dataset of 16,600 RGB images across 50 auto parts, enhancing efficiency in vehicle manufacturing and inspection systems.",
-    technologies: ["Python", "ReXNet-150", "Computer Vision"],
-    githubLink: "https://github.com/Adithiyanpv/AUTOMOBILE-PARTS-CLASSFICATION"
-  },
+  
   {
     title: "VisionChess: Seamless Chessboard Detection and 2D Rendering",
     image: project2,
@@ -103,7 +76,36 @@ export const PROJECTS = [
     description: "Built a scalable pipeline using Apache Spark to analyze 10M+ chess games, revealing rare chess patterns and providing insights into game length, critical moves, optimal resignation moments, time control impacts, and opening move effectiveness, enhancing decision-making through data-driven analysis.",
     technologies: ["Apache Spark", "PySpark", "Python", "Matplotlib", "Pandas", "SQL", "Linux"],
     githubLink: "https://github.com/Adithiyanpv/Near-Real-Time-Chess-Analytics-Using-Apache-Spark.git"
-  }
+  },
+
+  {
+    title: "Fake News Classification using XGBoost and CNN",
+    image: project6, 
+    description: "Developed a robust fake news detection system utilizing XGBoost and CNNs for both textual and video content, achieving 96% accuracy by integrating human insights with computational power to effectively identify misinformation across various media.",
+    technologies: ["Python", "XGBoost", "CNN", "Text Analysis", "Video Analysis"],
+    githubLink: "https://github.com/Adithiyanpv/FAKE-NEWS-CLASSIFICATION-VIDEO-AND-AUDIO-"
+  },
+  {
+    title: "FINANCIAL FRAUD DETECTION",
+    image: project3, 
+    description: "Built a scalable web application integrating a 96.87% accurate Random Forest model to detect financial fraud in real-time. The application features a user-friendly interface for seamless transaction monitoring and fraud prediction.",
+    technologies: ["Python", "Scikit-learn", "Flask", "HTML", "CSS", "Pandas"],
+    githubLink: "https://github.com/Adithiyanpv/Financial_Fraud_Detection" 
+  },
+  {
+    title: "REAL TIME OBJECT DETECTION USING YOLOV9",
+    image: project4, 
+    description: "Developed the Gelan-C model for real-time object detection in football using a customized dataset, PyTorch, YOLOv9, and OpenCV, achieving 75.9% mAP50 during validation, enhancing accuracy and efficiency in game analysis and performance tracking.",
+    technologies: ["Python", "PyTorch", "YOLOv9", "OpenCV"],
+    githubLink: "https://github.com/Adithiyanpv/OBJECT-DETECTION-USING-YOLOV9"
+  },
+  {
+    title: "Automobile Parts Classification using RexNet-150",
+    image: project5, 
+    description: "Utilized ReXNet-150 to automate automotive part assembly and quality control, achieving 98.6% testing accuracy and 98.4% training accuracy with a dataset of 16,600 RGB images across 50 auto parts, enhancing efficiency in vehicle manufacturing and inspection systems.",
+    technologies: ["Python", "ReXNet-150", "Computer Vision"],
+    githubLink: "https://github.com/Adithiyanpv/AUTOMOBILE-PARTS-CLASSFICATION"
+  },
 ];
 
 

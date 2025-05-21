@@ -1,6 +1,6 @@
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/ADHI PROFILE PIC.png";
-import resume from "../assets/ADITHIYAN_CV (9).pdf"; // Path to your resume
+import resume from "../assets/ADITHIYAN'S RESUME.pdf"; 
 import { motion } from "framer-motion";
 
 const Hero = () => {

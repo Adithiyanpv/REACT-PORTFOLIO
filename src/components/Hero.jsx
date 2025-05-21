@@ -23,7 +23,7 @@ const Hero = () => {
               transition={{ duration: 0.7, delay: 0.3, ease: "easeOut" }} 
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl font-semibold tracking-tight text-transparent"
             >
-              Frontend Developer
+              Machine Learning Engineer 
             </motion.span>
             <motion.p 
               initial={{ opacity: 0, y: 20 }} 

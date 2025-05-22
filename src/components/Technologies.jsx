@@ -1,7 +1,4 @@
 import {
-  RiReactjsLine,
-  RiTailwindCssLine,
-  RiBootstrapLine,
   RiJavaLine,
 } from "react-icons/ri";
 import {
@@ -28,7 +25,6 @@ import {
   SiApachehadoop,
   SiApachespark,
   SiOpencv,
-  SiRobotframework,
 } from "react-icons/si";
 import { motion } from "framer-motion";
 
@@ -140,9 +136,6 @@ const Technologies = () => {
         {/* CV & Robotics */}
         <motion.div variants={iconVariants} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
           <SiOpencv className="text-7xl text-[#5C3EE8]" />
-        </motion.div>
-        <motion.div variants={iconVariants} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
-          <SiRobotframework className="text-7xl text-[#00C5CD]" />
         </motion.div>
       </div>
     </div>

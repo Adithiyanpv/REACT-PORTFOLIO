@@ -9,27 +9,27 @@ import {
   SiHtml5,
   SiCss3,
   SiTensorflow,
-  SiPytorch,
-  SiKeras,
-  SiScikitlearn,
-  SiScipy,
   SiPandas,
   SiNumpy,
+  SiKeras,
+  SiScikitlearn,
+  SiJavascript,
+  SiPytorch,
+  SiScipy,
   SiMatplotlib,
-  SiLangchain,
   SiGithub,
+  SiGit,
   SiDocker,
   SiPostman,
   SiJupyter,
   SiAmazonaws,
   SiFlask,
   SiMysql,
+  SiApachehadoop,
   SiApachespark,
-  SiHadoop,
   SiOpencv,
-  SiJavascript,
+  SiRobotframework,
 } from "react-icons/si";
-import { FaGitAlt, FaRobot } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 // Variants for bouncing animation
@@ -59,59 +59,94 @@ const Technologies = () => {
       </motion.h1>
       <div className="flex flex-wrap items-center justify-center gap-6">
         {/* Programming Languages */}
-        <TechIcon Icon={SiPython} color="#3776AB" />
-        <TechIcon Icon={RiJavaLine} color="#007396" />
-        <TechIcon Icon={SiJavascript} color="#F7DF1E" />
-        <TechIcon Icon={SiHtml5} color="#E34F26" />
-        <TechIcon Icon={SiCss3} color="#1572B6" />
+        <motion.div variants={iconVariants} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiPython className="text-7xl text-[#3776AB]" />
+        </motion.div>
+        <motion.div variants={iconVariants} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <RiJavaLine className="text-7xl text-[#007396]" />
+        </motion.div>
+        <motion.div variants={iconVariants} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiJavascript className="text-7xl text-[#F7DF1E]" />
+        </motion.div>
+        <motion.div variants={iconVariants} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiHtml5 className="text-7xl text-[#E34F26]" />
+        </motion.div>
+        <motion.div variants={iconVariants} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiCss3 className="text-7xl text-[#1572B6]" />
+        </motion.div>
 
         {/* ML & AI */}
-        <TechIcon Icon={SiTensorflow} color="#FF6F00" />
-        <TechIcon Icon={SiKeras} color="#D00000" />
-        <TechIcon Icon={SiPytorch} color="#EE4C2C" />
-        <TechIcon Icon={SiScikitlearn} color="#F7931E" />
-        <TechIcon Icon={SiScipy} color="#8CAAE6" />
-        <TechIcon Icon={SiPandas} color="#150458" />
-        <TechIcon Icon={SiNumpy} color="#013243" />
-        <TechIcon Icon={SiMatplotlib} color="#11557C" />
-
-        {/* GenAI & LLM */}
-        <TechIcon Icon={SiLangchain} color="#5A0FC8" />
-        <TechIcon Icon={FaRobot} color="#6B7280" /> {/* Placeholder for CrewAI */}
+        <motion.div variants={iconVariants} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiTensorflow className="text-7xl text-[#FF6F00]" />
+        </motion.div>
+        <motion.div variants={iconVariants} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiKeras className="text-7xl text-[#D00000]" />
+        </motion.div>
+        <motion.div variants={iconVariants} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiPytorch className="text-7xl text-[#EE4C2C]" />
+        </motion.div>
+        <motion.div variants={iconVariants} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiScikitlearn className="text-7xl text-[#F7931E]" />
+        </motion.div>
+        <motion.div variants={iconVariants} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiScipy className="text-7xl text-[#8CAAE6]" />
+        </motion.div>
+        <motion.div variants={iconVariants} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiPandas className="text-7xl text-[#150458]" />
+        </motion.div>
+        <motion.div variants={iconVariants} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiNumpy className="text-7xl text-[#013243]" />
+        </motion.div>
+        <motion.div variants={iconVariants} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiMatplotlib className="text-7xl text-[#11557C]" />
+        </motion.div>
 
         {/* Tools & Platforms */}
-        <TechIcon Icon={FaGitAlt} color="#F05032" />
-        <TechIcon Icon={SiGithub} color="#181717" />
-        <TechIcon Icon={SiDocker} color="#2496ED" />
-        <TechIcon Icon={SiPostman} color="#FF6C37" />
-        <TechIcon Icon={SiJupyter} color="#F37626" />
+        <motion.div variants={iconVariants} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiGit className="text-7xl text-[#F05032]" />
+        </motion.div>
+        <motion.div variants={iconVariants} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiGithub className="text-7xl text-white" />
+        </motion.div>
+        <motion.div variants={iconVariants} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiDocker className="text-7xl text-[#2496ED]" />
+        </motion.div>
+        <motion.div variants={iconVariants} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiPostman className="text-7xl text-[#FF6C37]" />
+        </motion.div>
+        <motion.div variants={iconVariants} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiJupyter className="text-7xl text-[#F37626]" />
+        </motion.div>
 
         {/* Cloud & Backend */}
-        <TechIcon Icon={SiAmazonaws} color="#FF9900" />
-        <TechIcon Icon={SiFlask} color="#000000" />
-        <TechIcon Icon={SiMysql} color="#00758F" />
+        <motion.div variants={iconVariants} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiAmazonaws className="text-7xl text-[#FF9900]" />
+        </motion.div>
+        <motion.div variants={iconVariants} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiFlask className="text-7xl text-white" />
+        </motion.div>
+        <motion.div variants={iconVariants} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiMysql className="text-7xl text-[#4479A1]" />
+        </motion.div>
 
-        {/* Big Data & Frameworks */}
-        <TechIcon Icon={SiApachespark} color="#E25A1C" />
-        <TechIcon Icon={SiHadoop} color="#66CCFF" />
+        {/* Big Data */}
+        <motion.div variants={iconVariants} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiApachehadoop className="text-7xl text-[#66CCFF]" />
+        </motion.div>
+        <motion.div variants={iconVariants} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiApachespark className="text-7xl text-[#E25A1C]" />
+        </motion.div>
 
-        {/* Computer Vision & Robotics */}
-        <TechIcon Icon={SiOpencv} color="#5C3EE8" />
-        <TechIcon Icon={FaRobot} color="#6B7280" />
+        {/* CV & Robotics */}
+        <motion.div variants={iconVariants} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiOpencv className="text-7xl text-[#5C3EE8]" />
+        </motion.div>
+        <motion.div variants={iconVariants} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiRobotframework className="text-7xl text-[#00C5CD]" />
+        </motion.div>
       </div>
     </div>
   );
 };
-
-const TechIcon = ({ Icon, color }) => (
-  <motion.div
-    variants={iconVariants}
-    initial="initial"
-    animate="animate"
-    className="rounded-2xl border-4 border-neutral-800 p-4"
-  >
-    <Icon className="text-7xl" style={{ color }} />
-  </motion.div>
-);
 
 export default Technologies;
